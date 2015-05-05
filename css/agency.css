@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Asap","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Abel","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-muted {
@@ -52,7 +52,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Nueu",Helvetica,Arial,sans-serif;
+    font-family: "Abel",sans-serif;
     font-weight: 700;
 }
 
@@ -215,7 +215,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: "Asap",sans-serif;
+    font-family: "Abel",sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -299,8 +299,8 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-family: "Abel",sans-serif;
+    font-size: 3em;
     font-weight: 700;
     line-height: 50px;
 }
@@ -314,7 +314,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-size: 2em;
         font-style: italic;
         line-height: 40px;
     }
@@ -322,7 +322,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Abel",sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
@@ -331,6 +331,7 @@ header .intro-text .intro-heading {
 
 .boatsImg {
     margin-bottom: 2%;
+    width: 100%;
 }
 
 section {
@@ -424,7 +425,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
-    font-family: "Asap", sans-serif;
+    font-family: "Abel", sans-serif;
     color: #8DC0BC;
 }
 
@@ -460,7 +461,7 @@ section#about {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 40%;
+    left: 10%;
     width: 2px;
     margin-left: -1.5px;
     background-color: #FFF;
