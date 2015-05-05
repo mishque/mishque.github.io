@@ -42,7 +42,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #8DC0BC;
 }
 
 h1,
@@ -58,6 +58,10 @@ h6 {
 
 .img-centered {
     margin: 0 auto;
+}
+
+.blue {
+    color: #8DC0BC;
 }
 
 .bg-light-gray {
@@ -82,9 +86,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
+    border-color: #8DC0BC;
     color: #fff;
-    background-color: #fec503;
+    background-color: #8DC0BC;
 }
 
 .btn-primary:active,
@@ -136,7 +140,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #fec503;
+    background-color: #8DC0BC;
 }
 
 .btn-xl:active,
@@ -183,7 +187,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #8DC0BC;
 }
 
 .navbar-default .navbar-collapse {
@@ -227,7 +231,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #8DC0BC;
 }
 
 @media(min-width:768px) {
@@ -320,6 +324,10 @@ header .intro-text .intro-heading {
     }
 }
 
+.boatsImg {
+    margin-bottom: 2%;
+}
+
 section {
     padding: 100px 0;
 }
@@ -348,6 +356,7 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+    color: #8DC0BC;
 }
 
 #portfolio .portfolio-item {
@@ -367,7 +376,7 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(254,209,54,.9);
+    background: rgba(141,191,188,.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -408,6 +417,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
+    color: #8DC0BC;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
@@ -427,6 +437,10 @@ section h3.section-subheading {
     }
 }
 
+section#about {
+    background-color: #8DC0BC;
+}
+
 .timeline {
     position: relative;
     padding: 0;
@@ -438,10 +452,10 @@ section h3.section-subheading {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 40px;
+    left: 40%;
     width: 2px;
     margin-left: -1.5px;
-    background-color: #f1f1f1;
+    background-color: #FFF;
 }
 
 .timeline>li {
@@ -490,7 +504,7 @@ section h3.section-subheading {
     height: 80px;
     margin-left: 0;
     border: 7px solid #f1f1f1;
-    border-radius: 100%;
+    /*border-radius: 100%;*/
     text-align: center;
     color: #fff;
     background-color: #8DC0BC;
@@ -528,7 +542,7 @@ section h3.section-subheading {
 
 .timeline .timeline-heading h4 {
     margin-top: 0;
-    color: inherit;
+    color: #fff;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -542,7 +556,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     .timeline:before {
-        left: 50%;
+        left: 51.5%;
     }
 
     .timeline>li {
@@ -613,8 +627,8 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image {
-        width: 170px;
-        height: 170px;
+        width: 200px;
+        height: 200px;
         margin-left: -85px;
     }
 
